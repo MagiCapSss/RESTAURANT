@@ -6,6 +6,7 @@
 
 body {
     background-color: #caba9c;
+    padding-top: 90px;
 }
 
 .carousel {
@@ -37,6 +38,18 @@ body {
 .image-resto {
     max-width: 55%;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+    background-color: #242424;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.btn {
+    background-color: #caba9c;
+    border-color: #caba9c;
+    color: #242424;
 }
 
 @media (max-width: 768px) {
