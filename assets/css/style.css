@@ -12,9 +12,19 @@ h1, p {
     color: 242424;
 }
 
-.tryToFlex {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-around;
+.carousel {
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar-brand, .nav-link {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .carousel{
+        width: 90%;
+    }
 }
