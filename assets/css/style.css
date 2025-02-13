@@ -5,11 +5,7 @@
 }
 
 body {
-    background-color: #f4c87a;
-}
-
-h1, p {
-    color: 242424;
+    background-color: #caba9c;
 }
 
 .carousel {
@@ -17,14 +13,39 @@ h1, p {
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-brand, .nav-link {
     font-size: 1.3rem;
 }
 
+.restaurant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.image-resto {
+    max-width: 55%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 768px) {
     .carousel{
         width: 90%;
+    }
+
+    .restaurant {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .image-resto {
+        max-width: 90%;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     }
 }
