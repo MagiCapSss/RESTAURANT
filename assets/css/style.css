@@ -3,3 +3,18 @@
     max-height: 70px;
     object-fit: cover;
 }
+
+body {
+    background-color: #f4c87a;
+}
+
+h1, p {
+    color: 242424;
+}
+
+.tryToFlex {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
