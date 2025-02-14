@@ -52,6 +52,11 @@ body {
     color: #242424;
 }
 
+.btn:hover {
+    background-color: #ba8e3b;
+    border-color: #ba8e3b;
+}
+
 @media (max-width: 768px) {
     .carousel{
         width: 90%;
